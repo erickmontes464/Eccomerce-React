@@ -33,3 +33,10 @@ a{
 .nav a:hover {
   background-color: #a79d90;
 }
+.btn-hight {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 26px;
+
+}
