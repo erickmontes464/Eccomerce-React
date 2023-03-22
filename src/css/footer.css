@@ -1,0 +1,27 @@
+footer {
+  background-color: #000;
+  color: gray;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+li {
+  list-style-type: none;
+}
+
+.input-footer {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  border:1px solid #fff;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.redes-footer a {
+  color: white;
+  font-size: 27px;
+}
+.redes-footer a:hover {
+  scale: 1.2;
+}

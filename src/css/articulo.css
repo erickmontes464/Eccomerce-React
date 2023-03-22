@@ -1,0 +1,52 @@
+.container-articulo {
+  border: 1px gray solid;
+  text-align: center;
+  border-radius: 1em;
+  overflow: hidden;
+}
+.container-articulo:hover {
+  scale: 1.1;
+}
+.articulo{
+  height: 190px;
+  width: 200px;
+  transition: 0.5s ease-in;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-articulo:hover .icons{
+  visibility: visible;
+  transform: translate(0, 0);
+}
+
+.icons {
+  position: absolute;
+  bottom: 10px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 25%;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+  transform: translate(0, 30px);
+}
+.icons span { 
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 30px;
+  line-height: 0px;
+  cursor: pointer;
+}
+.icons span:hover {
+  background-color: red;
+  color: #fff;
+}
+.name-art {
+  padding: 4px;
+}
+.name-art p{
+  color: #74787C !important;
+  font-family: "Rubik", sans-serif;
+  margin: 2px;
+}
