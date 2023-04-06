@@ -1,3 +1,7 @@
+ul p:not(.none):hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
 footer {
   background-color: #000;
   color: gray;

@@ -20,10 +20,10 @@ const Footer = () => {
           <p>Políticas de Envio</p>
         </ul>
         <ul>
-          <p>!RECIBE NUESTRAS PROMOCIONES¡</p>
-          <p><input type="text" className='input-footer' placeholder='Ingresa Email'/></p>
-          <p><button className='btn btn-light w-100'>SUSCRIBETE AHORA</button></p>
-          <div className='d-flex justify-content-evenly redes-footer'>
+          <p className='none'>!RECIBE NUESTRAS PROMOCIONES¡</p>
+          <input type="text" className='input-footer mb-3' placeholder='Ingresa Email'/>
+          <button className='btn btn-light w-100'>SUSCRIBETE AHORA</button>
+          <div className='d-flex justify-content-evenly redes-footer mt-2'>
             <a href='/'><BsFacebook /></a>
             <a href='/'><BsWhatsapp /></a>
             <a href='/'><BsTelegram /></a>
